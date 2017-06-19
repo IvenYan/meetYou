@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<meta name="description" content="MeetYou,遇见你" />
+		<meta name="keywords" content="meetU,meetYou,MeetU,MeetYou,遇见,遇见你" />
+		<title>MeetU, 遇见你</title>
+		<link href="./bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+		<link href="./bootstrap-3.3.7/css/bootstrap-theme.min.css" rel="stylesheet"/>
+		<link href="http://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+		<!--<link href="/Content/custom?v=jmFQzcBriyMOELprtPysnpo_kjdwaDY4_YIp8ISeiHI1" rel="stylesheet"/>-->
+	</head><!---->
+	<body>
+		<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" type="button" ><!--data-toggle="collapse" data-target=".bs-navbar-collapse"-->
+						<i class="fa fa-bars" style="color:white;"></i>
+					</button>
+					<a href="http://www.baidu.com" class="navbar-brand" style="padding: 3px">
+						<img src="./images/yiluyouni.jpg" style="height: 44px;" alt="遇见你" />
+					</a>
+				</div>
+				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#" id="juanzhu" data-toggle="modal" data-target=".bs-example-modal-sm">第一次相遇</a>
+						</li>
+						<li>
+							<a href="http://msdn.itellyou.cn/rss.ashx" target="_blank">
+								<i class="fa fa-rss"></i>&nbsp;最新更新</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">联系我<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="http://weibo.com/smilefac" target="_blank">
+										<img src="http://www.sinaimg.cn/blog/developer/wiki/LOGO_16x16.png" alt="新浪微博"/>新浪微博</a>
+								</li>
+								<li>
+									<a href="http://t.qq.com/LuckyVicente" target="_blank">
+										<img src="http://mat1.gtimg.com/app/opent/images/wiki/resource/weiboicon16.png" alt="腾讯微博"/>腾讯微博</a>
+								</li>
+								<li>
+									<a href="mailto:m@itellyou.cn" target="_blank">
+										<i class="fa fa-envelope"></i> M @ MeetYou.cn</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div class="container bs-docs-container" style="margin-top: 60px;">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="panel-group" id="accordion">
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a href="javascript:void(0);" data-toggle="collapse" data-parent="#accordion" data-loadmenu="true" data-menuid="aff8a80f-2dee-4bba-80ec-611ac56d3849" data-target="#collapse_aff8a80f-2dee-4bba-80ec-611ac56d3849">亲友大本营</a>
+								</h4>
+							</div>
+							<div id="collapse_aff8a80f-2dee-4bba-80ec-611ac56d3849" class="panel-collapse collapse">
+								<div class="panel-body">
+									<i class="fa fa-spinner fa-spin"></i>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a href="javascript:void(0);" data-toggle="collapse" data-parent="#accordion" data-loadmenu="true" data-menuid="23958de6-bedb-4998-825c-aa3d1e00d097" data-target="#collapse_23958de6-bedb-4998-825c-aa3d1e00d097">个人资料库</a>
+								</h4>
+							</div>
+							<div id="collapse_23958de6-bedb-4998-825c-aa3d1e00d097" class="panel-collapse collapse">
+								<div class="panel-body">
+									<i class="fa fa-spinner fa-spin"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-9" role="main">
+					<form action="/Category/Search" method="get" id="search_form" style="margin-bottom:8px;margin-top:2px;">
+						<div class="input-group">
+							<input type="text" class="form-control" name="keyword" placeholder="搜索关键词,走起">
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="submit">Go!</button>
+								</span>
+							</div>
+						</form>
+						<div class="bs-docs-section">
+							<div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="tabbable tabs-left" id="view_data_container">
+											<small style="text-align:center;display:block;">使用前请注意：本站仅为内部人的信息托管站点。</small>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script src="http://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"/>
+			<script src="http://apps.bdimg.com/libs/jquery.cookie/1.4.1/jquery.cookie.js"/>
+			<script src="http://apps.bdimg.com/libs/bootstrap/3.0.3/js/bootstrap.min.js"/>
+			 <script> if (typeofjQuery == 'undefined') {
+				vare = document.createElement('script');
+				e.src = '/Scripts/jquery-1.10.2.min.js';
+				e.type = 'text/javascript';
+				document.getElementsByTagName("head")[0].appendChild(e);
+			}
+			</script>
+			<script>$(function(){var time_out_show=null;$("#never_show_donate_auto").on("change",function(){var target=$(this);if(target.is(":checked")){$.cookie("never_show_donate_auto","true",{expires:new Date(2099,1,1),path:"/"})}else{$.cookie("never_show_donate_auto",null)}});$("#juanzhu").on("click",function(e){e.preventDefault();if(time_out_show){clearTimeout(time_out_show)}});if($.cookie("never_show_donate_auto")!=="true"){time_out_show=setTimeout(function(){$("#juanzhu").click()},150000)}else{$("#never_show_donate_auto").attr("checked",true)}});</script>
+			<script>$(function(){$(document).on('click','[class*="dashang"][class*="xianshi"]',function(){var $this= $(this);var parent = $this.parents('[class="shang_box"]');var zhifubao=$('[class="zhifubao"]',parent);var weixin=$('[class="weixin"]',parent);weixin.animate({marginLeft:'50px'});zhifubao.animate({marginLeft:'-180px'},function(){$this.removeClass('xianshi');$this.addClass('yincang');});});$(document).on('click','[class*="dashang"][class*="yincang"]',function(){var $this= $(this);var parent = $this.parents('[class="shang_box"]');var zhifubao=$('[class="zhifubao"]',parent);var weixin=$('[class="weixin"]',parent);weixin.animate({marginLeft:'400px'});zhifubao.animate({marginLeft:'-500px'},function(){$this.removeClass('yincang');$this.addClass('xianshi');});});});</script>
+			<script src="/bundles/jtemplates?v=HMz29vY5-ZGu5LK0MjJAV-npRAYfminqybK44Zx6L9g1"/>
+			<script src="/bundles/custom?v=xFiLRj__rm2i1XaoMLGryubWatD892FWRIOJ5yVNdIM1"/>
+			<!--<div style="display: none;"></div>
+				<script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script>
+				<script type="text/javascript">try { var pageTracker = _gat._getTracker("UA-7811290-1"); pageTracker._trackPageview(); } catch (err) { }</script>
+				<script type="text/javascript" src="http://s120.cnzz.com/stat.php?id=1605814&web_id=1605814&show=pic"/>
+				<script>var _hmt = _hmt || [];(function() {var hm = document.createElement("script");hm.src = "//hm.baidu.com/hm.js?8688ca4bc18cbc647c9c68fdaef6bc24";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm, s);})();</script>
+			</div>-->
+	</body>
+</html>
